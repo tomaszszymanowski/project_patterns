@@ -1,4 +1,4 @@
-package pl.tomasz.wzorceprojektowe;
+package pl.tomasz.wzorceprojektowe.singleton;
 
 public class CastleInMalbork {
     private static CastleInMalbork malborkCastle;
