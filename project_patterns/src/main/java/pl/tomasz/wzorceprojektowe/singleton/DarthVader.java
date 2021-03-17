@@ -1,4 +1,4 @@
-package pl.tomasz.wzorceprojektowe;
+package pl.tomasz.wzorceprojektowe.singleton;
 
 public class DarthVader {
     private static DarthVader Datrh_Vader;
