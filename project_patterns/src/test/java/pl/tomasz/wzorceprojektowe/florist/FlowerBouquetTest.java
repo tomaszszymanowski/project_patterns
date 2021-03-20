@@ -28,4 +28,16 @@ public class FlowerBouquetTest {
         assertEquals(flowerBouquet.addons(), "nice bouquet with wrapper");
     }
 
+    @Test
+    public void isBouquetWithRibon(){
+        //given
+        FlowerBouquetImpl flowerBouquetImpl = new FlowerBouquetImpl();
+
+        //when
+        FlowerBouquet flowerBouquet = new Ribon(flowerBouquetImpl);
+
+        //then
+        assertEquals(flowerBouquet.addons(),"nice bouquet with ribon");
+    }
+
 }
